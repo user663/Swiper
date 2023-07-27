@@ -11,6 +11,27 @@
     <script src="https://kit.fontawesome.com/ca4105c3f0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <main>
+        <section class="swiper-wrapper">
+            <article class="swiper-slide">1</article>
+            <article class="swiper-slide">2</article>
+            <article class="swiper-slide">3</article>
+            <article class="swiper-slide">4</article>
+            <article class="swiper-slide">5</article>
+        </section>
+    </main>
+
+    <script>
+        const swiper = new Swiper("main",{
+            speed: 500,
+            loop: true,
+            direction: "horizontal",
+            grabCursor: true,
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            centerdSlides: true,
+        });
+
+    </script>
 </body>
 </html>
